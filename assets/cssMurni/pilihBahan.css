@@ -1,0 +1,263 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar Start */
+nav{
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.10);
+}
+
+nav .wrapper-link{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+nav .wrapper-link a{
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #695c5c;
+  transition: all .2s ease-in-out;
+}
+
+nav .wrapper-link a:focus{
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+nav .wrapper-user{
+  display: flex;
+  align-items: center;
+  width: max-content;
+  gap: 100px;
+  justify-content: space-between;
+}
+
+nav .wrapper-user .icon{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+nav .wrapper-user .icon a{
+  color: #776464;
+}
+
+nav .wrapper-user .icon a:focus{
+  color: #c2892d;
+}
+
+nav .wrapper-user .profile img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+/* Navbar End */
+
+/* =======Main====== */
+#main {
+  margin-top: 130px;
+}
+
+.nama-toko h2 {
+  font-family: Open Sans;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.nama-toko img {
+  width: 62px;
+}
+
+.img-resep img {
+  width: 400px;
+  height: 400px;
+}
+
+.img-resep h4 {
+  color: #303030;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.img-resep .rating span {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.icon-star {
+  width: 20px;
+  height: 20px;
+  fill: #e9b824;
+  stroke: none;
+}
+
+.icon-star:nth-child(5) {
+  fill: none;
+  stroke-width: 2;
+  stroke: currentColor;
+}
+
+.daftar-belanja h5 {
+  color: #8f8f8f;
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.daftar-belanja h5 span {
+  color: #c08261;
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.form-check .form-check-input {
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+  border: 1px solid #8f8f8f;
+}
+
+.form-check .form-check-label p {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.form-check .form-check-label p:nth-child(2) {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: -10px;
+}
+
+.total-harga {
+  height: 80px;
+}
+
+.total-harga h4 {
+  color: #8f8f8f;
+  font-family: Open Sans;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.total-harga h5 {
+  font-family: Open Sans;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.metode-pembayaran {
+  height: 200px;
+}
+
+.pilih-metode div span {
+  color: #8f8f8f;
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.pilih-metode button {
+  color: #c08261;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.metode-terpilih img {
+  width: 100px;
+}
+
+.map-icon {
+  color: #8f8f8f;
+}
+
+.metode-terpilih span,
+.alamat span {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 600;
+  width: 500px;
+}
+
+.btn-pesan button {
+  width: 850px;
+  height: 90px;
+  padding: 11px 10px;
+  border-radius: 10px;
+  background: #c08261;
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+/* Footer Start */
+footer{
+  background-color: #f2ecbe;
+  width: 100%;
+  height: 188px;
+} 
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  margin : 0 125px;
+}
+
+footer .container .wrapper-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .container .wrapper-menu a {
+  text-decoration: none;
+  color: #303030;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  padding: 0 5%;
+  margin: 0 7px;
+}
+
+footer .container .wrapper-logo{
+  width: fit-content;
+}
+
+footer .container .wrapper-copyright {
+  align-items: center;
+  justify-content: center;
+}
+
+footer .container .wrapper-copyright p {
+  text-decoration: none;
+  color: #303030;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+/* Footer End */
