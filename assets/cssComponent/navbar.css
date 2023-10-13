@@ -19,6 +19,10 @@ nav .wrapper-link{
     gap: 50px;
 }
 
+nav .wrapper-logo img {
+    height: 50px;
+}
+
 nav .wrapper-link a{
     text-decoration: none;
     text-transform: capitalize;
@@ -60,6 +64,6 @@ nav .wrapper-user .icon a:focus{
 }
 
 nav .wrapper-user .profile img{
-    width: 20px;
+    width: 32px;
     border-radius: 50%;
 }
