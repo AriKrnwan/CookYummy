@@ -25,24 +25,25 @@
 </head>
 <body>
     <nav>
-        <div class="wrapper-logo">
-            <img src="assets/img/logo.png" alt="logo">
-        </div>
-        <div class="wrapper-link">
-            <a href="beranda.html">beranda</a>
-            <a href="resep1.html">resep</a>
-            <a href="komunitas.html">komunitas</a>
-            <a href="berita.html">berita</a>
-            <a href="tentang.html">tentang</a>
-        </div>
-        <div class="wrapper-user">
-            <div class="icon">
-                <a href="#"><i data-feather="bell"></i></a>
-                <a href="#"><i data-feather="heart"></i></i></a>
-                <a href="#"><i data-feather="bookmark"></i></i></a>
+        <div class="wrapper">
+            <div class="wrapper-logo">
+                <img src="assets/img/logo.png" alt="logo">
             </div>
-            <div class="profile">
-                <a href="profiletersimpan.html"><img src="assets/img/profile.png" alt="user"></a>
+            <div class="wrapper-link">
+                <a href="beranda.html">beranda</a>
+                <a href="resep1.html">resep</a>
+                <a href="komunitas.html">komunitas</a>
+                <a href="berita.html">berita</a>
+                <a href="tentang.html">tentang</a>
+            </div>
+            <div class="wrapper-user">
+                <div class="icons">
+                    <a href="#"><i data-feather="bell" class="icon"></i></a>
+                    <a href="#"><i data-feather="bookmark" class="icon"></i></a>
+                </div>
+                <div class="profile">
+                    <a href="profiletersimpan.html"><img src="assets/img/profile.png" alt="user"></a>
+                </div>
             </div>
         </div>
     </nav>
@@ -59,7 +60,7 @@
     </section>
     <section id="resep" class="mx-auto">
         <div class="btn-box">
-            <button id="btn1" onclick="openR()">HALO</button>
+            <button id="btn1" onclick="openR()">REKOMENDASI</button>
             <button id="btn2" onclick="openA()">APPETIZER</button>
             <button id="btn3" onclick="openMC()">MAIN COURSE</button>
             <button id="btn4" onclick="openD()">DESSERT</button>
@@ -67,7 +68,7 @@
         <div id="content1" class="content">
             <div class="cards mx-auto mt-4 d-flex justify-content-start flex-wrap gap-4">
                 <div class="card mt-2">
-                    <div class="img-resep d-flex justify-content-center align-items-center object-fit-cover overflow-hidden rounded-3"><img src="assets/Gurame Bakar Spesial.png" alt="Gurame Bakar Spesial"></div>
+                    <div class="img-resep d-flex justify-content-center align-items-center object-fit-cover overflow-hidden rounded-3"><img src="assets/img/beranda/Gurame Bakar Spesial.png" alt="Gurame Bakar Spesial"></div>
                     <div class="explain-resep mx-auto mt-2">
                         <div class="kategori-action d-flex justify-content-between align-items-start">
                             <h2 class="fs-6 fw-semibold d-inline">MAIN COURSE</h2>
@@ -403,24 +404,58 @@
             </div>
         </div>
     </section>
-
-    <br><br>
-
+    <section id="berita" class="mx-auto mt-5 mb-5">
+        <div class="title d-flex justify-content-between align-items-center">
+            <h2 class="fs-4 fw-bold">Berita</h2>
+            <div class="more d-flex justify-content-between align-items-start">
+                <p>Lihat yang lain</p>
+                <i class="icon" data-feather="chevron-right"></i>
+            </div>
+        </div>
+        <div class="news d-flex justify-content-start gap-5 flex-wrap">
+            <div class="card-news">
+                <div class="img overflow-hidden d-flex justify-content-center align-items-center rounded-3">
+                    <img src="assets/img/beranda/berita.png" alt="">
+                </div>
+                <p class="mt-1 fw-semibold">12 Kecamatan di Pasaman Masak Rendang di Tugu Khatulistiwa, Ini Tujuannya</p>
+            </div>
+            <div class="card-news">
+                <div class="img overflow-hidden d-flex justify-content-center align-items-center rounded-3">
+                    <img src="assets/img/beranda/berita.png" alt="">
+                </div>
+                <p class="mt-1 fw-semibold">12 Kecamatan di Pasaman Masak Rendang di Tugu Khatulistiwa, Ini Tujuannya</p>
+            </div>
+            <div class="card-news">
+                <div class="img overflow-hidden d-flex justify-content-center align-items-center rounded-3">
+                    <img src="assets/img/beranda/berita.png" alt="">
+                </div>
+                <p class="mt-1 fw-semibold">12 Kecamatan di Pasaman Masak Rendang di Tugu Khatulistiwa, Ini Tujuannya</p>
+            </div>
+            <div class="card-news">
+                <div class="img overflow-hidden d-flex justify-content-center align-items-center rounded-3">
+                    <img src="assets/img/beranda/berita.png" alt="">
+                </div>
+                <p class="mt-1 fw-semibold">12 Kecamatan di Pasaman Masak Rendang di Tugu Khatulistiwa, Ini Tujuannya</p>
+            </div>
+        </div>
+    </section>
 
     <footer>
-        <div class="wrapper-menu">
-          <a href="resep1.html">Resep</a>
-          <a href="komunitas.html">Komunitas</a>
-          <a href="berita.html">Berita</a>
-          <a href="tentang.html">Tentang</a>
-        </div>
-
-        <div class="wrapper-logo">
-          <img src="assets/logo.png" alt="logo" />
-        </div>
-
-        <div class="wrapper-copyright">
-          <p>2023 CookYummy. All right reserved</p>
+        <div class="wrapper">
+            <div class="wrapper-menu">
+                <a href="resep1.html">Resep</a>
+                <a href="komunitas.html">Komunitas</a>
+                <a href="berita.html">Berita</a>
+                <a href="tentang.html">Tentang</a>
+            </div>
+      
+            <div class="wrapper-logo">
+                <img src="../assets/img/logo.png" alt="logo" />
+            </div>
+      
+            <div class="wrapper-copyright">
+                <p>2023 CookYummy. All right reserved</p>
+            </div>
         </div>
     </footer>
 

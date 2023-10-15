@@ -1,49 +1,42 @@
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
 footer{
     background-color: #f2ecbe;
     width: 100%;
-    height: 188px;
+    height: 150px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
 } 
 
-footer .container {
+footer .wrapper {
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100%;
-    margin : 0 125px;
+    margin: auto;
 }
 
-footer .container .wrapper-menu {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-footer .container .wrapper-menu a {
+footer .wrapper-menu a {
+    margin-right: 30px;
     text-decoration: none;
     color: #303030;
-    font-size: 16px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
-    text-transform: capitalize;
-    padding: 0 5%;
-    margin: 0 7px;
+    font-size: 16px;
 }
 
-footer .container .wrapper-logo{
-    width: fit-content;
+footer .wrapper .wrapper-logo img{
+    width: 150px;
 }
 
-footer .container .wrapper-copyright {
-    align-items: center;
-    justify-content: center;
-}
-
-footer .container .wrapper-copyright p {
+footer .wrapper-copyright p {
+    margin-right: 30px;
     text-decoration: none;
-    color: #303030;
     font-size: 16px;
-    font-style: normal;
+    color: #303030;
     font-weight: 600;
-    line-height: normal;
+    margin: 0;
 }

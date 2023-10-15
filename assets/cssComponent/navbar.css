@@ -12,35 +12,44 @@ nav{
     box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.10);
 }
 
-nav .wrapper-link{
+nav .wrapper {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav .wrapper .wrapper-link{
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 50px;
 }
 
-nav .wrapper-logo img {
+nav .wrapper .wrapper-logo img {
     height: 50px;
 }
 
-nav .wrapper-link a{
+nav .wrapper .wrapper-link a{
+    font-weight: 500;
     text-decoration: none;
     text-transform: capitalize;
-    color: #695c5c;
+    color: #8f8f8f;
     transition: all .2s ease-in-out;
 }
 
-nav .wrapper-link a:hover{
+nav .wrapper .wrapper-link a:hover{
     color: #695c5c;
-    font-weight: bolder;
+    font-weight: 500;
 }
 
-nav .wrapper-link a:focus{
+nav .wrapper .wrapper-link a:focus{
     font-size: 20px;
     font-weight: bolder;
 }
 
-nav .wrapper-user{
+nav .wrapper .wrapper-user{
     display: flex;
     align-items: center;
     width: max-content;
@@ -48,22 +57,27 @@ nav .wrapper-user{
     justify-content: space-between;
 }
 
-nav .wrapper-user .icon{
+nav .wrapper .wrapper-user .icons{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 10px;
+    gap: 20px;
 }
 
-nav .wrapper-user .icon a{
+nav .wrapper .wrapper-user .icons a{
     color: #776464;
 }
 
-nav .wrapper-user .icon a:focus{
+nav .wrapper .wrapper-user .icons a .icon{
+    width: 20px;
+    height: 20px;
+}
+
+nav .wrapper .wrapper-user .icons a:focus{
     color: #c2892d;
 }
 
-nav .wrapper-user .profile img{
+nav .wrapper .wrapper-user .profile img{
     width: 32px;
     border-radius: 50%;
 }
