@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/cssMurni/tentang.css">
+    <link rel="stylesheet" href="assets/cssComponent/footer.css">
+    <link rel="stylesheet" href="assets/cssComponent/navbar.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -12,27 +14,29 @@
 </head>
 <body>
     <nav>
-        <div class="wrapper-logo">
-            <img src="assets/img/logo.png" alt="logo">
-        </div>
-        <div class="wrapper-link">
-            <a href="beranda.html">beranda</a>
-            <a href="resep1.html">resep</a>
-            <a href="komunitas.html">komunitas</a>
-            <a href="berita.html">berita</a>
-            <a href="tentang.html">tentang</a>
-        </div>
-        <div class="wrapper-user">
-            <div class="icon">
-                <a href="#"><i data-feather="bell"></i></a>
-                <a href="#"><i data-feather="heart"></i></i></a>
-                <a href="#"><i data-feather="bookmark"></i></i></a>
+        <div class="wrapper">
+            <div class="wrapper-logo">
+                <img src="assets/img/logo.png" alt="logo">
             </div>
-            <div class="profile">
-                <a href="profiletersimpan.html"><img src="assets/img/profile.png" alt="user"></a>
+            <div class="wrapper-link">
+                <a href="beranda.html">beranda</a>
+                <a href="resep1.html">resep</a>
+                <a href="komunitas.html">komunitas</a>
+                <a href="berita.html">berita</a>
+                <a href="tentang.html" style="font-size: 20px;
+                font-weight: bolder; color: #695c5c;">tentang</a>
+            </div>
+            <div class="wrapper-user">
+                <div class="icons">
+                    <a href="#"><i data-feather="bell" class="icon"></i></a>
+                    <a href="#"><i data-feather="bookmark" class="icon"></i></a>
+                </div>
+                <div class="profile">
+                    <a href="profiletersimpan.html"><img src="assets/img/profile.png" alt="user"></a>
+                </div>
             </div>
         </div>
-    </nav>
+      </nav>
     <main>
         <div class="wrapper-about"> 
             <div class="text">
@@ -79,18 +83,20 @@
         </div>
     </main>
     <footer>
-        <div class="container">
+        <div class="wrapper">
             <div class="wrapper-menu">
-                <a href="resep1.html">resep</a>
-                <a href="komunitas.html">komunitas</a>
-                <a href="berita.html">berita</a>
-                <a href="tentang.html">tentang</a>
+                <a href="resep1.html">Resep</a>
+                <a href="komunitas.html">Komunitas</a>
+                <a href="berita.html">Berita</a>
+                <a href="tentang.html">Tentang</a>
             </div>
+      
             <div class="wrapper-logo">
                 <img src="assets/img/logo.png" alt="logo" />
             </div>
+      
             <div class="wrapper-copyright">
-                <p>2023 cookyummy. all right reserved</p>
+                <p>2023 CookYummy. All right reserved</p>
             </div>
         </div>
     </footer>
