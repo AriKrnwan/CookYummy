@@ -107,9 +107,19 @@ footer{
     width: 1153px;
 }
 
+.out {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
 .card {
     width: 211px;
     border: none;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1);
 }
 
 .img-resep {
