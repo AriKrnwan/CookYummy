@@ -53,7 +53,7 @@
             <h1 class="fs-1 fw-bold text-light">Masak apa hari ini?</h1>
             <div class="search-bar d-flex flex-row justify-content-around align-items-center rounded-3">
                 <input type="text" class="out form-control out w-75 d-inline border border-0 outline-0" placeholder="Cari resepmu di sini?">
-                <button class="btn btn-primary btn-lg border norder-0"><i data-feather="search"></i></button>
+                <button class="btn btn-primary btn-lg border norder-0" id="button"><i data-feather="search"></i></button>
             </div>
             <p class="text-light">Memasak dengan Cinta, Berbagi dengan Kebahagiaan bersama CookYummy</p>
         </div>
@@ -1205,6 +1205,10 @@
             content3.style.display = "none";
             content4.style.display = "block";
         }
+
+        document.getElementById("button").addEventListener("click", function() {
+            window.location.href = "resep1.html";
+        });
     </script>
 
     <!-- Bootstrap Javascript -->
