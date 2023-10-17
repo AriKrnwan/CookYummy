@@ -8,10 +8,8 @@
     <link rel="stylesheet" href="assets/cssMurni/resep1.css">
     <link rel="stylesheet" href="assets/cssComponent/navbar.css">
     <link rel="stylesheet" href="assets/cssComponent/footer.css">
-    <link
-    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
-    rel="stylesheet"
-  />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script>
     <script src="https://unpkg.com/feather-icons"></script>
     <!-- Bootstrap -->
     <link
@@ -52,12 +50,92 @@
         <input type="text" class="cari-text" name="cari-text" id="cari" placeholder="Cari resepmu di sini" style="width: 500px; height: 52px">
         <a href="#"><i class="cari-icon" style="width: 50px; height: 50px;" data-feather="search"></i></a>
     </div>
-    <div class="container">
-    <div class="judul" >
-            <h5 class="judulh5">Resep <a style="color: rgb(160, 109, 16); margin-bottom: 0;" >Gurame Bakar </a></h5>
-            <h6 class="judulh6">Resep ini sudah banyak dibuat oleh pengguna seperti anda</h6>
+        <div class="judul" >
+            <h5 class="judulh5"> Pilihan resep</h5>
+            <h6 class="judulh6">Berikut rekomendasi resep dari kami:</h6>
     </div>
     
+<<<<<<< HEAD
+    <div id="content1" class="content">
+        <div class="cards mx-auto mt-4 d-flex justify-content-start flex-wrap gap-4 ">
+            <div class="card mt-2">
+                <div class="img-resep d-flex justify-content-center align-items-center object-fit-cover overflow-hidden rounded-3"><img src="assets/img/beranda/gurame1.jpeg" alt="Gurame Bakar Spesial"></div>
+                <div class="explain-resep mx-auto mt-2">
+                    <div class="kategori-action d-flex justify-content-between align-items-start">
+                        <h2 class="fs-10 fw-semibold d-inline, fonts:Poppins">MAIN COURSE</h2>
+                        <div class="action d-flex justify-content-between gap-1" >
+                            <div class="bg-icon-like d-flex justify-content-center align-items-center"><i class="icon" data-feather="heart"></i></div>
+                            <div class="bg-icon-tersimpan d-flex justify-content-center align-items-center"><i class="icon" data-feather="bookmark"></i></div>
+                        </div>
+                    </div>
+                    <h1>Gurame Bakar Spesial</h1>
+                    <div class="time-star d-flex align-items-center justify-content-start gap-2">
+                        <div class="time d-flex align-items-start gap-1 rounded-2">
+                            <i class="icon" data-feather="clock"></i>
+                            <p class="fw-semibold">50 min</p>
+                        </div>
+                        <div class="star d-flex align-items-start gap-1 rounded-2">
+                            <i class="icon" data-feather="star"></i>
+                            <p class="fw-semibold">4.5/5</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-2">
+                <div class="img-resep d-flex justify-content-center align-items-center object-fit-cover overflow-hidden rounded-3"><img src="assets/img/beranda/kerang hijau sambal.png" alt="Kerang Hijau Sambal"></div>
+                <div class="explain-resep mx-auto mt-2">
+                    <div class="kategori-action d-flex justify-content-between align-items-start">
+                        <h2 class="fs-6 fw-semibold d-inline">MAIN COURSE</h2>
+                        <div class="action d-flex justify-content-between gap-1" >
+                            <div class="bg-icon-like d-flex justify-content-center align-items-center"><i class="icon" data-feather="heart"></i></div>
+                            <div class="bg-icon d-flex-tersimpan justify-content-center align-items-center"><i class="icon" data-feather="bookmark"></i></div>
+                        </div>
+                    </div>
+                    <h1>Kerang Hijau Sambal</h1>
+                    <div class="time-star d-flex align-items-center justify-content-start gap-2">
+                        <div class="time d-flex align-items-start gap-1 rounded-2">
+                            <i class="icon" data-feather="clock"></i>
+                            <p class="fw-semibold">50 min</p>
+                        </div>
+                        <div class="star d-flex align-items-start gap-1 rounded-2">
+                            <i class="icon" data-feather="star"></i>
+                            <p class="fw-semibold">50 min</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-2">
+                <div class="img-resep d-flex justify-content-center align-items-center object-fit-cover overflow-hidden rounded-3"><img src="assets/img/beranda/MangoSago.jpg" alt="Mango Sago"></div>
+                <div class="explain-resep mx-auto mt-2">
+                    <div class="kategori-action d-flex justify-content-between align-items-start">
+                        <h2 class="fs-6 fw-semibold d-inline">APPETIZER</h2>
+                        <div class="action d-flex justify-content-between gap-1" >
+                            <div class="bg-icon-like d-flex justify-content-center align-items-center"><i class="icon" data-feather="heart"></i></div>
+                            <div class="bg-icon-tersimpan d-flex justify-content-center align-items-center"><i class="icon" data-feather="bookmark"></i></div>
+                        </div>
+                    </div>
+                    <h1>Mango Sago</h1>
+                    <div class="time-star d-flex align-items-center justify-content-start gap-2">
+                        <div class="time d-flex align-items-start gap-1 rounded-2">
+                            <i class="icon" data-feather="clock"></i>
+                            <p class="fw-semibold">50 min</p>
+                        </div>
+                        <div class="star d-flex align-items-start gap-1 rounded-2">
+                            <i class="icon" data-feather="star"></i>
+                            <p class="fw-semibold">50 min</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-2">
+                <div class="img-resep d-flex justify-content-center align-items-center object-fit-cover overflow-hidden rounded-3"><img src="assets/img/beranda/cheesecake.jpg" alt="Cheesecake"></div>
+                <div class="explain-resep mx-auto mt-2">
+                    <div class="kategori-action d-flex justify-content-between align-items-start">
+                        <h2 class="fs-6 fw-semibold d-inline">DESSERT</h2>
+                        <div class="action d-flex justify-content-between gap-1" >
+                            <div class="bg-icon-like d-flex justify-content-center align-items-center"><i class="icon" data-feather="heart"></i></div>
+                            <div class="bg-icon-tersimpan d-flex justify-content-center align-items-center"><i class="icon" data-feather="bookmark"></i></div>
+=======
     <div class="row row-cols-1 row-cols-md-3 g-4 py-1 mx-auto">
         <div class="col"></div>
             <table>
@@ -422,16 +500,277 @@
                                         </tr>
                                     </table>
                                 </div>
+>>>>>>> f566cc325954cec959a189972a5d5573497634f8
                         </div>
-                    </td>
-                </tr>
-            </table>
-        </div>
+                    </div>
+                    <h1>Cheesecake</h1>
+                    <div class="time-star d-flex align-items-center justify-content-start gap-2">
+                        <div class="time d-flex align-items-start gap-1 rounded-2">
+                            <i class="icon" data-feather="clock"></i>
+                            <p class="fw-semibold">50 min</p>
+                        </div>
+                        <div class="star d-flex align-items-start gap-1 rounded-2">
+                            <i class="icon" data-feather="star"></i>
+                            <p class="fw-semibold">50 min</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-2">
+                <div class="img-resep d-flex justify-content-center align-items-center object-fit-cover overflow-hidden rounded-3"><img src="assets/img/beranda/canape buah.jpg" alt="Canape Buah"></div>
+                <div class="explain-resep mx-auto mt-2">
+                    <div class="kategori-action d-flex justify-content-between align-items-start">
+                        <h2 class="fs-6 fw-semibold d-inline">APPETIZER</h2>
+                        <div class="action d-flex justify-content-between gap-1" >
+                            <div class="bg-icon-like d-flex justify-content-center align-items-center"><i class="icon" data-feather="heart"></i></div>
+                            <div class="bg-icon-tersimpan d-flex justify-content-center align-items-center"><i class="icon" data-feather="bookmark"></i></div>
+                        </div>
+                    </div>
+                    <h1>Canape Buah</h1>
+                    <div class="time-star d-flex align-items-center justify-content-start gap-2">
+                        <div class="time d-flex align-items-start gap-1 rounded-2">
+                            <i class="icon" data-feather="clock"></i>
+                            <p class="fw-semibold">50 min</p>
+                        </div>
+                        <div class="star d-flex align-items-start gap-1 rounded-2">
+                            <i class="icon" data-feather="star"></i>
+                            <p class="fw-semibold">50 min</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-2">
+                <div class="img-resep d-flex justify-content-center align-items-center object-fit-cover overflow-hidden rounded-3"><img src="assets/img/beranda/martabak telur.jpg" alt="Martabak Telur"></div>
+                <div class="explain-resep mx-auto mt-2">
+                    <div class="kategori-action d-flex justify-content-between align-items-start">
+                        <h2 class="fs-6 fw-semibold d-inline">APPETIZER</h2>
+                        <div class="action d-flex justify-content-between gap-1" >
+                            <div class="bg-icon-like d-flex justify-content-center align-items-center"><i class="icon" data-feather="heart"></i></div>
+                            <div class="bg-icon-tersimpan d-flex justify-content-center align-items-center"><i class="icon" data-feather="bookmark"></i></div>
+                        </div>
+                    </div>
+                    <h1>Martabak Telur</h1>
+                    <div class="time-star d-flex align-items-center justify-content-start gap-2">
+                        <div class="time d-flex align-items-start gap-1 rounded-2">
+                            <i class="icon" data-feather="clock"></i>
+                            <p class="fw-semibold">50 min</p>
+                        </div>
+                        <div class="star d-flex align-items-start gap-1 rounded-2">
+                            <i class="icon" data-feather="star"></i>
+                            <p class="fw-semibold">50 min</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-2">
+                <div class="img-resep d-flex justify-content-center align-items-center object-fit-cover overflow-hidden rounded-3"><img src="assets/img/beranda/cheesecake.jpg" alt="Cheesecake"></div>
+                <div class="explain-resep mx-auto mt-2">
+                    <div class="kategori-action d-flex justify-content-between align-items-start">
+                        <h2 class="fs-6 fw-semibold d-inline">DESSERT</h2>
+                        <div class="action d-flex justify-content-between gap-1" >
+                            <div class="bg-icon-like d-flex justify-content-center align-items-center"><i class="icon" data-feather="heart"></i></div>
+                            <div class="bg-icon-tersimpan d-flex justify-content-center align-items-center"><i class="icon" data-feather="bookmark"></i></div>
+                        </div>
+                    </div>
+                    <h1>Cheesecake</h1>
+                    <div class="time-star d-flex align-items-center justify-content-start gap-2">
+                        <div class="time d-flex align-items-start gap-1 rounded-2">
+                            <i class="icon" data-feather="clock"></i>
+                            <p class="fw-semibold">50 min</p>
+                        </div>
+                        <div class="star d-flex align-items-start gap-1 rounded-2">
+                            <i class="icon" data-feather="star"></i>
+                            <p class="fw-semibold">50 min</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-2">
+                <div class="img-resep d-flex justify-content-center align-items-center object-fit-cover overflow-hidden rounded-3"><img src="assets/img/beranda/canape buah.jpg" alt="Canape Buah"></div>
+                <div class="explain-resep mx-auto mt-2">
+                    <div class="kategori-action d-flex justify-content-between align-items-start">
+                        <h2 class="fs-6 fw-semibold d-inline">APPETIZER</h2>
+                        <div class="action d-flex justify-content-between gap-1" >
+                            <div class="bg-icon-like d-flex justify-content-center align-items-center"><i class="icon" data-feather="heart"></i></div>
+                            <div class="bg-icon-tersimpan d-flex justify-content-center align-items-center"><i class="icon" data-feather="bookmark"></i></div>
+                        </div>
+                    </div>
+                    <h1>Canape Buah</h1>
+                    <div class="time-star d-flex align-items-center justify-content-start gap-2">
+                        <div class="time d-flex align-items-start gap-1 rounded-2">
+                            <i class="icon" data-feather="clock"></i>
+                            <p class="fw-semibold">50 min</p>
+                        </div>
+                        <div class="star d-flex align-items-start gap-1 rounded-2">
+                            <i class="icon" data-feather="star"></i>
+                            <p class="fw-semibold">50 min</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-2">
+                <div class="img-resep d-flex justify-content-center align-items-center object-fit-cover overflow-hidden rounded-3"><img src="assets/img/beranda/martabak telur.jpg" alt="Martabak Telur"></div>
+                <div class="explain-resep mx-auto mt-2">
+                    <div class="kategori-action d-flex justify-content-between align-items-start">
+                        <h2 class="fs-6 fw-semibold d-inline">APPETIZER</h2>
+                        <div class="action d-flex justify-content-between gap-1" >
+                            <div class="bg-icon-like d-flex justify-content-center align-items-center"><i class="icon" data-feather="heart"></i></div>
+                            <div class="bg-icon-tersimpan d-flex justify-content-center align-items-center"><i class="icon" data-feather="bookmark"></i></div>
+                        </div>
+                    </div>
+                    <h1>Martabak Telur</h1>
+                    <div class="time-star d-flex align-items-center justify-content-start gap-2">
+                        <div class="time d-flex align-items-start gap-1 rounded-2">
+                            <i class="icon" data-feather="clock"></i>
+                            <p class="fw-semibold">50 min</p>
+                        </div>
+                        <div class="star d-flex align-items-start gap-1 rounded-2">
+                            <i class="icon" data-feather="star"></i>
+                            <p class="fw-semibold">50 min</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-2">
+                <div class="img-resep d-flex justify-content-center align-items-center object-fit-cover overflow-hidden rounded-3"><img src="assets/img/beranda/cheesecake.jpg" alt="Cheesecake"></div>
+                <div class="explain-resep mx-auto mt-2">
+                    <div class="kategori-action d-flex justify-content-between align-items-start">
+                        <h2 class="fs-6 fw-semibold d-inline">DESSERT</h2>
+                        <div class="action d-flex justify-content-between gap-1" >
+                            <div class="bg-icon-like d-flex justify-content-center align-items-center"><i class="icon" data-feather="heart"></i></div>
+                            <div class="bg-icon-tersimpan d-flex justify-content-center align-items-center"><i class="icon" data-feather="bookmark"></i></div>
+                        </div>
+                    </div>
+                    <h1>Cheesecake</h1>
+                    <div class="time-star d-flex align-items-center justify-content-start gap-2">
+                        <div class="time d-flex align-items-start gap-1 rounded-2">
+                            <i class="icon" data-feather="clock"></i>
+                            <p class="fw-semibold">50 min</p>
+                        </div>
+                        <div class="star d-flex align-items-start gap-1 rounded-2">
+                            <i class="icon" data-feather="star"></i>
+                            <p class="fw-semibold">50 min</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-2">
+                <div class="img-resep d-flex justify-content-center align-items-center object-fit-cover overflow-hidden rounded-3"><img src="assets/img/beranda/canape buah.jpg" alt="Canape Buah"></div>
+                <div class="explain-resep mx-auto mt-2">
+                    <div class="kategori-action d-flex justify-content-between align-items-start">
+                        <h2 class="fs-6 fw-semibold d-inline">APPETIZER</h2>
+                        <div class="action d-flex justify-content-between gap-1" >
+                            <div class="bg-icon-like d-flex justify-content-center align-items-center"><i class="icon" data-feather="heart"></i></div>
+                            <div class="bg-icon-tersimpan d-flex justify-content-center align-items-center"><i class="icon" data-feather="bookmark"></i></div>
+                        </div>
+                    </div>
+                    <h1>Canape Buah</h1>
+                    <div class="time-star d-flex align-items-center justify-content-start gap-2">
+                        <div class="time d-flex align-items-start gap-1 rounded-2">
+                            <i class="icon" data-feather="clock"></i>
+                            <p class="fw-semibold">50 min</p>
+                        </div>
+                        <div class="star d-flex align-items-start gap-1 rounded-2">
+                            <i class="icon" data-feather="star"></i>
+                            <p class="fw-semibold">50 min</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-2">
+                <div class="img-resep d-flex justify-content-center align-items-center object-fit-cover overflow-hidden rounded-3"><img src="assets/img/beranda/martabak telur.jpg" alt="Martabak Telur"></div>
+                <div class="explain-resep mx-auto mt-2">
+                    <div class="kategori-action d-flex justify-content-between align-items-start">
+                        <h2 class="fs-6 fw-semibold d-inline">APPETIZER</h2>
+                        <div class="action d-flex justify-content-between gap-1" >
+                            <div class="bg-icon-like d-flex justify-content-center align-items-center"><i class="icon" data-feather="heart"></i></div>
+                            <div class="bg-icon-tersimpan d-flex justify-content-center align-items-center"><i class="icon" data-feather="bookmark"></i></div>
+                        </div>
+                    </div>
+                    <h1>Martabak Telur</h1>
+                    <div class="time-star d-flex align-items-center justify-content-start gap-2">
+                        <div class="time d-flex align-items-start gap-1 rounded-2">
+                            <i class="icon" data-feather="clock"></i>
+                            <p class="fw-semibold">50 min</p>
+                        </div>
+                        <div class="star d-flex align-items-start gap-1 rounded-2">
+                            <i class="icon" data-feather="star"></i>
+                            <p class="fw-semibold">50 min</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-2">
+                <div class="img-resep d-flex justify-content-center align-items-center object-fit-cover overflow-hidden rounded-3"><img src="assets/img/beranda/cheesecake.jpg" alt="Cheesecake"></div>
+                <div class="explain-resep mx-auto mt-2">
+                    <div class="kategori-action d-flex justify-content-between align-items-start">
+                        <h2 class="fs-6 fw-semibold d-inline">DESSERT</h2>
+                        <div class="action d-flex justify-content-between gap-1" >
+                            <div class="bg-icon-like d-flex justify-content-center align-items-center"><i class="icon" data-feather="heart"></i></div>
+                            <div class="bg-icon-tersimpan d-flex justify-content-center align-items-center"><i class="icon" data-feather="bookmark"></i></div>
+                        </div>
+                    </div>
+                    <h1>Cheesecake</h1>
+                    <div class="time-star d-flex align-items-center justify-content-start gap-2">
+                        <div class="time d-flex align-items-start gap-1 rounded-2">
+                            <i class="icon" data-feather="clock"></i>
+                            <p class="fw-semibold">50 min</p>
+                        </div>
+                        <div class="star d-flex align-items-start gap-1 rounded-2">
+                            <i class="icon" data-feather="star"></i>
+                            <p class="fw-semibold">50 min</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-2">
+                <div class="img-resep d-flex justify-content-center align-items-center object-fit-cover overflow-hidden rounded-3"><img src="assets/img/beranda/canape buah.jpg" alt="Canape Buah"></div>
+                <div class="explain-resep mx-auto mt-2">
+                    <div class="kategori-action d-flex justify-content-between align-items-start">
+                        <h2 class="fs-6 fw-semibold d-inline">APPETIZER</h2>
+                        <div class="action d-flex justify-content-between gap-1" >
+                            <div class="bg-icon d-flex justify-content-center align-items-center"><i class="icon" data-feather="heart"></i></div>
+                            <div class="bg-icon d-flex justify-content-center align-items-center"><i class="icon" data-feather="bookmark"></i></div>
+                        </div>
+                    </div>
+                    <h1>Canape Buah</h1>
+                    <div class="time-star d-flex align-items-center justify-content-start gap-2">
+                        <div class="time d-flex align-items-start gap-1 rounded-2">
+                            <i class="icon" data-feather="clock"></i>
+                            <p class="fw-semibold">50 min</p>
+                        </div>
+                        <div class="star d-flex align-items-start gap-1 rounded-2">
+                            <i class="icon" data-feather="star"></i>
+                            <p class="fw-semibold">50 min</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-2">
+                <div class="img-resep d-flex justify-content-center align-items-center object-fit-cover overflow-hidden rounded-3"><img src="assets/img/beranda/martabak telur.jpg" alt="Martabak Telur"></div>
+                <div class="explain-resep mx-auto mt-2">
+                    <div class="kategori-action d-flex justify-content-between align-items-start">
+                        <h2 class="fs-6 fw-semibold d-inline">APPETIZER</h2>
+                        <div class="action d-flex justify-content-between gap-1" >
+                            <div class="bg-icon-like d-flex justify-content-center align-items-center"><i class="icon" data-feather="heart"></i></div>
+                            <div class="bg-icon-tersimpan d-flex justify-content-center align-items-center"><i class="icon" data-feather="bookmark"></i></div>
+                        </div>
+                    </div>
+                    <h1>Martabak Telur</h1>
+                    <div class="time-star d-flex align-items-center justify-content-start gap-2">
+                        <div class="time d-flex align-items-start gap-1 rounded-2">
+                            <i class="icon" data-feather="clock"></i>
+                            <p class="fw-semibold">50 min</p>
+                        </div>
+                        <div class="star d-flex align-items-start gap-1 rounded-2">
+                            <i class="icon" data-feather="star"></i>
+                            <p class="fw-semibold">50 min</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </div>
 </div>
-            <div class="btn-view" >
-                <a href="resep2.html"><button type="button" class="btn-text">Lihat Lebih Banyak</button></a>
-            </div>
             <footer>
                 <div class="wrapper">
                     <div class="wrapper-menu">
