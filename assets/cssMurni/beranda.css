@@ -5,10 +5,6 @@
     box-sizing: border-box;
 }
 
-body {
-    overflow-x: hidden;
-}
-
 /* SEARCH */
 #search {
     margin-top: 125px;
@@ -32,6 +28,10 @@ body {
 .search-bar input::placeholder {
     font-size: 14px;
     color: #8f8f8f;
+}
+
+.search-bar button:active {
+    background-color: #7c2525 !important;
 }
 
 .search-bar button {
