@@ -3,25 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- FONT (BARLOW CONDENSED, OPEN SANS, POPPINS) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- FEATHER ICON -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="assets/cssMurni/resep1.css">
-    <link rel="stylesheet" href="assets/cssComponent/navbar.css">
     <link rel="stylesheet" href="assets/cssComponent/footer.css">
-    <link
-    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
-    rel="stylesheet"
-  />
-    <script src="https://unpkg.com/feather-icons"></script>
-    <script src="https://unpkg.com/feather-icons"></script>
-    <!-- Bootstrap -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    <title>cari resep</title>
+    <link rel="stylesheet" href="assets/cssComponent/navbar.css">
+
+    <!-- Title -->
+    <title>Document</title>
 </head>
 <body>
     <nav>
@@ -31,8 +31,7 @@
             </div>
             <div class="wrapper-link">
                 <a href="beranda.html">beranda</a>
-                <a href="resep1.html" style="font-size: 16px;
-                font-weight: 500; color: #C08261;">resep</a>
+                <a href="resep1.html" style="color: #C08261;">resep</a>
                 <a href="komunitas.html">komunitas</a>
                 <a href="berita.html">berita</a>
                 <a href="tentang.html">tentang</a>
@@ -49,16 +48,16 @@
         </div>
     </nav>
     
-    <div class="cari" style="gap: 12px;">
-        <input type="text" class="cari-text" name="cari-text" id="cari" placeholder="Cari resepmu di sini" style="width: 500px; height: 52px">
-        <a href="resep2.html"><i class="cari-icon" style="width: 50px; height: 50px;" data-feather="search"></i></a>
+    <div class="search-bar d-flex flex-row justify-content-around align-items-center rounded-3">
+        <input type="text" class="out form-control out w-75 d-inline border border-0 outline-0" placeholder="Cari resepmu di sini?">
+        <button class="btn btn-primary btn-lg border norder-0" id="button"><i data-feather="search"></i></button>
     </div>
     <div class="judul" >
-            <h5 class="judulh5">Resep <a style="color: rgb(160, 109, 16); margin-bottom: 0;" >CookYummy </a></h5>
-            <h6 class="judulh6">Resep ini sudah banyak dibuat oleh pengguna seperti anda</h6>
+        <h5 class="judulh5">Resep <span>CookYummy</span></h5>
+        <h6 class="judulh6">Resep ini sudah banyak dibuat oleh pengguna seperti anda</h6>
     </div>
     <div id="content1" class="content">
-        <div class="cards mx-auto mt-4 d-flex justify-content-start flex-wrap gap-4 ">
+        <div class="cards mx-auto mt-2 d-flex justify-content-start flex-wrap gap-4 ">
             <div class="card mt-2">
                 <div class="img-resep d-flex justify-content-center align-items-center object-fit-cover overflow-hidden rounded-3"><img src="assets/img/beranda/gurame1.jpeg" alt="Gurame Bakar Spesial"></div>
                 <div class="explain-resep mx-auto mt-2">
@@ -83,16 +82,16 @@
                 </div>
             </div>
             <div class="card mt-2">
-                <div class="img-resep d-flex justify-content-center align-items-center object-fit-cover overflow-hidden rounded-3"><img src="assets/img/beranda/kerang hijau sambal.png" alt="Kerang Hijau Sambal"></div>
+                <div class="img-resep d-flex justify-content-center align-items-center object-fit-cover overflow-hidden rounded-3"><img src="assets/img/beranda/gurame1.jpeg" alt="Gurame Bakar Spesial"></div>
                 <div class="explain-resep mx-auto mt-2">
                     <div class="kategori-action d-flex justify-content-between align-items-start">
-                        <h2 class="fs-6 fw-semibold d-inline">MAIN COURSE</h2>
+                        <h2 class="fs-10 fw-semibold d-inline, fonts:Poppins">MAIN COURSE</h2>
                         <div class="action d-flex justify-content-between gap-1" >
                             <div class="bg-icon-like d-flex justify-content-center align-items-center"><i class="icon" data-feather="heart"></i></div>
-                            <div class="bg-icon d-flex-tersimpan justify-content-center align-items-center"><i class="icon" data-feather="bookmark"></i></div>
+                            <div class="bg-icon-tersimpan d-flex justify-content-center align-items-center"><i class="icon" data-feather="bookmark"></i></div>
                         </div>
                     </div>
-                    <h1>Kerang Hijau Sambal</h1>
+                    <h1>Gurame Bakar Spesial</h1>
                     <div class="time-star d-flex align-items-center justify-content-start gap-2">
                         <div class="time d-flex align-items-start gap-1 rounded-2">
                             <i class="icon" data-feather="clock"></i>
@@ -100,7 +99,7 @@
                         </div>
                         <div class="star d-flex align-items-start gap-1 rounded-2">
                             <i class="icon" data-feather="star"></i>
-                            <p class="fw-semibold">50 min</p>
+                            <p class="fw-semibold">4.5/5</p>
                         </div>
                     </div>
                 </div>
