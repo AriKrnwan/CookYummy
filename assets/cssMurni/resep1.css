@@ -1,3 +1,5 @@
+
+
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
@@ -40,6 +42,7 @@ footer{
     font-weight: 600;
     line-height: normal;
   }
+
 
 .search-bar {
     width: 500px;
@@ -157,6 +160,7 @@ footer{
   color: #C08261;
   letter-spacing: 2px;
   font-size: 14px;
+  margin-bottom: 0;
 }
 
 .action .bg-icon {
@@ -187,6 +191,7 @@ footer{
   font-size: 12px;
   margin-bottom: 0;
   color: #C08261;
+  text-decoration: none !important;
 }
 
 .star{
@@ -205,6 +210,7 @@ footer{
   font-size: 12px;
   margin-bottom: 0;
   color: #303030;
+  text-decoration: none !important;
 }
 
 #btn1 {
