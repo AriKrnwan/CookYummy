@@ -6,7 +6,7 @@
 
 /* Section Hero Start*/
 #hero {
-  margin-top: 140px;
+  margin-top: 125px;
 }
 
 .cari #cariBerita {
@@ -99,6 +99,8 @@
 
 .card-link .card-populer img {
   transition: transform 0.3s ease;
+  height: 300px;
+  object-fit: cover;
 }
 
 .overlay {

@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
     padding: 0;
 } 
 
@@ -39,6 +39,8 @@ span{
 }
 
 main .wrapper-about .picture img{
+    width: 660px;
+    height: 500px;
     border-radius: 20px;
 }
 
