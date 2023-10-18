@@ -15,6 +15,8 @@
     <script src="https://unpkg.com/feather-icons"></script>
     <!-- My Style -->
     <link rel="stylesheet" href="assets/cssMurni/artikel.css" />
+    <link rel="stylesheet" href="assets/cssComponent/footer.css" />
+    <link rel="stylesheet" href="assets/cssComponent/navbar.css" />
     <!-- Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -25,25 +27,36 @@
   </head>
   <body>
     <!-- navbar start -->
-    <nav class="top-0 z-3">
-      <div class="wrapper-logo">
-        <img src="assets/img/logo.png" alt="logo" />
-      </div>
-      <div class="wrapper-link">
-        <a href="beranda.html">beranda</a>
-        <a href="resep1.html">resep</a>
-        <a href="komunitas.html">komunitas</a>
-        <a href="berita.html">berita</a>
-        <a href="tentang.html">tentang</a>
-      </div>
-      <div class="wrapper-user">
-        <div class="icon">
-          <a href="notifikasi.html"><i data-feather="bell"></i></a>
-          <a href="#"><i data-feather="heart"></i></a>
-          <a href="#"><i data-feather="bookmark"></i></a>
+    <nav>
+      <div class="wrapper">
+        <div class="wrapper-logo">
+          <img src="assets/img/logo.png" alt="logo" />
         </div>
-        <div class="profile">
-          <a href="profilee.html"><img src="assets/img/profile.png" alt="user" /></a>
+        <div class="wrapper-link">
+          <a href="beranda.html">beranda</a>
+          <a href="resep1.html">resep</a>
+          <a href="komunitas.html">komunitas</a>
+          <a
+            href="berita.html"
+            style="font-size: 16px; font-weight: 500; color: #c08261"
+            >berita</a
+          >
+          <a href="tentang.html">tentang</a>
+        </div>
+        <div class="wrapper-user">
+          <div class="icons">
+            <a href="notifikasi.html"
+              ><i data-feather="bell" class="icon"></i
+            ></a>
+            <a href="profileUser.html"
+              ><i data-feather="bookmark" class="icon"></i
+            ></a>
+          </div>
+          <div class="profile">
+            <a href="profileUser.html"
+              ><img src="assets/img/profile.png" alt="user"
+            /></a>
+          </div>
         </div>
       </div>
     </nav>
@@ -53,8 +66,8 @@
     <section class="artikel">
       <div class="container">
         <div class="row">
-          <div class="col-7">
-            <img src="assets/img/beranda/salmon1.jpg" alt="" class="detail-img" />
+          <div class="col-7 detail-img">
+            <img src="assets/img/card1.jpg" alt="" />
           </div>
           <div class="col-5">
             <div class="row">
@@ -66,7 +79,11 @@
 
                 <div class="artikel-populer">
                   <a href="" class="d-flex text-decoration-none">
-                    <img src="assets/img/artikelPopuler1.png" alt="" class="mx-3" />
+                    <img
+                      src="assets/img/artikelPopuler1.png"
+                      alt=""
+                      class="mx-3"
+                    />
                     <h5>
                       8 Sayuran Paling Menyehatkan, Kale Ampuh Menurunkan
                       Kolesterol
@@ -76,7 +93,11 @@
 
                 <div class="artikel-populer mt-3">
                   <a href="" class="d-flex text-decoration-none">
-                    <img src="assets/img/artikelPopuler2.png" alt="" class="mx-3" />
+                    <img
+                      src="assets/img/artikelPopuler2.png"
+                      alt=""
+                      class="mx-3"
+                    />
                     <h5>
                       5 Daging Paling Menyehatkan, Daging Sapi Banyak Manfaatnya
                     </h5>
@@ -85,7 +106,11 @@
 
                 <div class="artikel-populer mt-3">
                   <a href="" class="d-flex text-decoration-none">
-                    <img src="assets/img/artikelPopuler3.png" alt="" class="mx-3" />
+                    <img
+                      src="assets/img/artikelPopuler3.png"
+                      alt=""
+                      class="mx-3"
+                    />
                     <h5>
                       Buah Paling Menyegarkan, Semangka Bisa Jadi Pilihannya
                     </h5>
@@ -94,7 +119,11 @@
 
                 <div class="artikel-populer mt-3">
                   <a href="" class="d-flex text-decoration-none">
-                    <img src="assets/img/artikelPopuler4.png" alt="" class="mx-3" />
+                    <img
+                      src="assets/img/artikelPopuler4.png"
+                      alt=""
+                      class="mx-3"
+                    />
                     <h5>
                       10 Urutan Buah Paling Menyehatkan, Jeruk Termasuk Buah
                       Menyehatkan
@@ -104,7 +133,11 @@
 
                 <div class="artikel-populer mt-3">
                   <a href="" class="d-flex text-decoration-none">
-                    <img src="assets/img/artikelPopuler5.png" alt="" class="mx-3" />
+                    <img
+                      src="assets/img/artikelPopuler5.png"
+                      alt=""
+                      class="mx-3"
+                    />
                     <h5>Sayuran Termasuk Pilihan Makanan Kaya Air</h5>
                   </a>
                 </div>
@@ -203,7 +236,11 @@
             <a class="card-link" href="#">
               <div class="artikel-terbaru border-0">
                 <div class="img-container overflow-hidden position-relative">
-                  <img src="assets/img/artikelTerbaru1.png" class="card-img-top" alt="..." />
+                  <img
+                    src="assets/img/artikelTerbaru1.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
                   <div class="overlay"></div>
                 </div>
                 <div class="card-body ps-0 mt-4">
@@ -220,7 +257,11 @@
             <a class="card-link" href="#">
               <div class="artikel-terbaru border-0">
                 <div class="img-container overflow-hidden position-relative">
-                  <img src="assets/img/artikelTerbaru2.png" class="card-img-top" alt="..." />
+                  <img
+                    src="assets/img/artikelTerbaru2.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
                   <div class="overlay"></div>
                 </div>
                 <div class="card-body ps-0 mt-4">
@@ -239,7 +280,11 @@
             <a class="card-link" href="#">
               <div class="artikel-terbaru border-0">
                 <div class="img-container overflow-hidden position-relative">
-                  <img src="assets/img/artikelTerbaru3.png" class="card-img-top" alt="..." />
+                  <img
+                    src="assets/img/artikelTerbaru3.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
                   <div class="overlay"></div>
                 </div>
                 <div class="card-body ps-0 mt-4">
@@ -255,7 +300,11 @@
             <a class="card-link" href="#">
               <div class="artikel-terbaru border-0">
                 <div class="img-container overflow-hidden position-relative">
-                  <img src="assets/img/artikelTerbaru4.png" class="card-img-top" alt="..." />
+                  <img
+                    src="assets/img/artikelTerbaru4.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
                   <div class="overlay"></div>
                 </div>
                 <div class="card-body ps-0 mt-4">
