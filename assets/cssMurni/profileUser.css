@@ -218,7 +218,7 @@ body {
 .action .bg-icon-like {
   width: 20px;
   height: 20px;
-  background-color: #9a3b3b;
+  background-color: #E41635 ;
   border-radius: 100px;
 }
 
@@ -311,8 +311,8 @@ body {
 }
 
 .like .icon {
-  fill: #e41635;
-  color: #e41635;
+  fill: #E41635;
+  color: #E41635;
 }
 
 .action-post p {
