@@ -6,21 +6,42 @@
 
 /* Section Hero Start*/
 #hero {
-  margin-top: 125px;
+  margin-top: 20px;
 }
 
-.cari #cariBerita {
-  border-radius: 5px;
-  width: 425px;
-  height: 40px;
-  padding: 0 10px;
+.search-bar {
+  width: 500px;
+  height: 60px;
+  background-color: #fff;
+  border: 1px solid #dedede;
+  margin: 115px auto 30px;
 }
 
-.cari-icon {
-  background: #9a3b3b;
-  width: 60px;
-  height: 40px;
-  border-radius: 5px;
+.search-bar input {
+  height: 95%;
+}
+
+.out {
+box-shadow: none !important;
+}
+
+.search-bar input::placeholder {
+  font-size: 14px;
+  color: #8f8f8f;
+}
+
+.search-bar button {
+  width: 24%;
+  height: 95%;
+  background-color: #9A3B3B;
+}
+
+.search-bar button:hover {
+  background-color: #7c2525;
+}
+
+.search-bar button:active {
+background-color: #7c2525 !important;
 }
 
 .custom-icon {
