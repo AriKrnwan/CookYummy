@@ -132,6 +132,9 @@
     font-size: 18px;
     font-weight: 600;
     color: #303030;
+    display: inline-block; 
+    width: 100%; 
+    height: 42px;
 }
 
 .kategori-action h2 {
