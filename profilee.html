@@ -1,39 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/cssComponent/navbar.css">
-    <link rel="stylesheet" href="assets/cssComponent/footer.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- FONT (BARLOW CONDENSED, OPEN SANS, POPPINS) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FEATHER ICON -->
     <script src="https://unpkg.com/feather-icons"></script>
-    <title>profile</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/cssMurni/profileUser.css" />
+    <link rel="stylesheet" href="assets/cssComponent/footer.css" />
+    <link rel="stylesheet" href="assets/cssComponent/navbar.css" />
+
+    <!-- Title -->
+    <title>Profile</title>
 </head>
-<body style="overflow: hidden;">
-    <div style="width: 100%; height: 100%; background: white; flex-direction: column; justify-content: center; align-items: center; gap: 44px; display: inline-flex">
-        <nav>
-            <div class="wrapper">
-                <div class="wrapper-logo">
-                    <img src="assets/img/logo.png" alt="logo">
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="wrapper-logo">
+                <img src="assets/img/logo.png" alt="logo">
+            </div>
+            <div class="wrapper-link">
+                <a href="beranda.html">beranda</a>
+                <a href="resep1.html">resep</a>
+                <a href="komunitas.html">komunitas</a>
+                <a href="berita.html">berita</a>
+                <a href="tentang.html">tentang</a>
+            </div>
+            <div class="wrapper-user">
+                <div class="icons">
+                    <a href="#"><i data-feather="bell" class="icon"></i></a>
+                    <a href="#"><i data-feather="bookmark" class="icon"></i></a>
                 </div>
-                <div class="wrapper-link">
-                    <a href="beranda.html">beranda</a>
-                    <a href="resep1.html">resep</a>
-                    <a href="komunitas.html">komunitas</a>
-                    <a href="berita.html">berita</a>
-                    <a href="tentang.html">tentang</a>
-                </div>
-                <div class="wrapper-user">
-                    <div class="icons">
-                        <a href="notifikasi.html"><i data-feather="bell" class="icon"></i></a>
-                        <a href="profileUser.html"><i data-feather="bookmark" class="icon"></i></a>
-                    </div>
                     <div class="profile">
                         <a href="profileUser.html"><img src="assets/img/image 33.png" alt="user"></a>
                     </div>
+                <div class="profile">
+                    <a  style="font-size: 16px; font-weight: 500; color: #C08261; text-decoration: none;" href="profiletersimpan.html"><img src="assets/img/profile.png" alt="user">User</a>
                 </div>
             </div>
-        </nav>
-        <div style="width: 950px; height: 507px; position: relative; margin-top: 50px; margin-bottom: 40px;">
+        </div>
+    </nav>
+            <div style="width: 94px; height: 48px; left: 1286px; top: 26px; position: relative; gap: 10px; display: inline-flex">
+                <div style="width: 48px; height: 48px; position: relative">
+                    <div style="width: 48px; height: 48px; left: 0px; top: 0px; position: absolute; background: #ADD8E6; border-radius: 9999px"></div>
+                    <div style="width: 44px; height: 44px; left: 2px; top: 4px; position: absolute">
+                        <div style="width: 44px; height: 22px; left: -0px; top: 22px; position: absolute; background: #F8312F"></div>
+                        <div style="width: 29.86px; height: 20.62px; left: 7.07px; top: 23.39px; position: absolute; background: #007ACF"></div>
+                        <div style="width: 37.71px; height: 17.51px; left: 3.14px; top: 26.49px; position: absolute; background: #0092E7"></div>
+                        <div style="width: 3.14px; height: 3.14px; left: 20.38px; top: 26.61px; position: absolute; background: #FCD53F"></div>
+                        <div style="width: 6.29px; height: 11px; left: 18.86px; top: 14.93px; position: absolute; background: #F4C6AD"></div>
+                        <div style="width: 20.63px; height: 21.37px; left: 11.68px; top: 0px; position: absolute; background: #212121"></div>
+                        <div style="width: 20.63px; height: 5.25px; left: 11.68px; top: 10.88px; position: absolute; background: #F4C6AD"></div>
+                        <div style="width: 16.50px; height: 18.86px; left: 13.75px; top: 4.72px; position: absolute; background: #FFD7C2"></div>
+                        <div style="width: 5.50px; height: 1.96px; left: 19.25px; top: 17.76px; position: absolute; background: #990838"></div>
+                        <div style="width: 16.50px; height: 6.05px; left: 13.75px; top: 9.43px; position: absolute; background: #F8312F"></div>
+                        <div style="width: 2.75px; height: 4.32px; left: 20.64px; top: 12.57px; position: absolute; background: #E5AF93"></div>
+                        <div style="width: 12.05px; height: 2.25px; left: 15.98px; top: 11.32px; position: absolute; background: white"></div>
+                        <div style="width: 9.88px; height: 1.81px; left: 17.07px; top: 11.76px; position: absolute; background: #7D4533"></div>
+                        <div style="width: 8.66px; height: 1.19px; left: 17.68px; top: 12.37px; position: absolute; background: #422900"></div>
+                        <div style="width: 7.57px; height: 0.50px; left: 17.76px; top: 12.35px; position: absolute; background: white"></div>
+                    </div>
+                    <img style="width: 48px; height: 48px; left: 0px; top: 0px; position: absolute" src="assets/img/Group 33.svg" />
+                </div>
+                <div style="color: #422900; font-size: 16px; font-family: Open Sans; font-weight: 600; word-wrap: break-word">User</div>
+            </div>
+        </div>
+        <div style="width: 950px; height: 507px; position: relative">
             <div style="width: 950px; height: 507px; left: 0px; top: 60px; position: absolute; background: white; border-radius: 10px; border: 1px #BDBDBD solid"></div>
             <div style="left: 30px; top: 80px; position: absolute; color: black; font-size: 24px; font-family: Open Sans; font-weight: 600; word-wrap: break-word">Profil Saya</div>
             <div style="width: 200px; height: 287px; left: 670px; top: 113px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: center; gap: 20px; display: inline-flex">
@@ -47,40 +96,41 @@
                 <div style="width: 440px; height: 55px; left: 151px; top: 70px; position: absolute; background: white; border-radius: 6px; border: 1px #BDBDBD solid"></div>
                 <div style="width: 440px; height: 55px; left: 151px; top: 140px; position: absolute; background: white; border-radius: 6px; border: 1px #BDBDBD solid"></div>
                 <div style="width: 440px; height: 100px; left: 151px; top: 210px; position: absolute; background: white; border-radius: 6px; border: 1px #BDBDBD solid"></div>
-                <div style="left: 80px; top: 17px; position: absolute; color: #8F8F8F; font-size: 16px; font-family: Open Sans; font-weight: 600; word-wrap: break-word">Nama</div>
+                <div style="left: 74px; top: 17px; position: absolute; color: #8F8F8F; font-size: 16px; font-family: Open Sans; font-weight: 600; word-wrap: break-word">Nama</div>
                 <div style="left: 78px; top: 87px; position: absolute; color: #8F8F8F; font-size: 16px; font-family: Open Sans; font-weight: 600; word-wrap: break-word">Email</div>
+<<<<<<< HEAD
                 <div style="left: 15px; top: 157px; position: absolute; color: #8F8F8F; font-size: 16px; font-family: Open Sans; font-weight: 600; word-wrap: break-word">Nomor Telepon</div>
                 <div style="left: 69px; top: 227px; position: absolute; color: #8F8F8F; font-size: 16px; font-family: Open Sans; font-weight: 600; word-wrap: break-word">Alamat</div>
                 <div style="left: 171px; top: 17px; position: absolute; color: black; font-size: 16px; font-family: Open Sans; font-weight: 400; word-wrap: break-word">Syafa syifa</div>
                 <div style="left: 171px; top: 87px; position: absolute; color: black; font-size: 16px; font-family: Open Sans; font-weight: 400; word-wrap: break-word">syafasyifapart2@gmail.com</div>
                 <div style="left: 171px; top: 157px; position: absolute; color: black; font-size: 16px; font-family: Open Sans; font-weight: 400; word-wrap: break-word">08128922998</div>
                 <div style="left: 171px; top: 227px; position: absolute; color: black; font-size: 16px; font-family: Open Sans; font-weight: 400; word-wrap: break-word">Jalan Pahlawan No. 21, Depok, Indonesia 92746</div>
+=======
+                <div style="left: 0px; top: 157px; position: absolute; color: #8F8F8F; font-size: 16px; font-family: Open Sans; font-weight: 600; word-wrap: break-word">Nomor Telepon</div>
+                <div style="left: 65px; top: 227px; position: absolute; color: #8F8F8F; font-size: 16px; font-family: Open Sans; font-weight: 600; word-wrap: break-word">Alamat</div>
+                <div style="left: 171px; top: 17px; position: absolute; color: black; font-size: 16px; font-family: Open Sans; font-weight: 400; word-wrap: break-word">Syafa Syifa</div>
+                <div style="left: 171px; top: 87px; position: absolute; color: black; font-size: 16px; font-family: Open Sans; font-weight: 400; word-wrap: break-word">syafasyifa@gmail.com</div>
+                <div style="left: 171px; top: 157px; position: absolute; color: black; font-size: 16px; font-family: Open Sans; font-weight: 400; word-wrap: break-word">08123456789</div>
+                <div style="left: 171px; top: 227px; position: absolute; color: black; font-size: 16px; font-family: Open Sans; font-weight: 400; word-wrap: break-word">Jl. Cookyummy</div>
             </div>
-            <a href="profileUser.html"><div style="width: 421px; height: 55px; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; left: 181px; top: 450px; position: absolute; background: #7A9D54; border-radius: 6px; justify-content: center; align-items: center; gap: 10px; display: inline-flex; cursor: pointer;">
-                <div style="color: white; font-size: 20px; font-family: Open Sans; font-weight: 600; word-wrap: break-word">Save</div>
-            </div></a>
+            <div style="width: 421px; height: 55px; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; left: 181px; top: 450px; position: absolute; background: #7A9D54; border-radius: 6px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                <div style="color: white; font-size: 20px; font-family: Open Sans; font-weight: 600; word-wrap: break-word"><a href="profileUser.html" style="text-decoration: none; color: white;">Save</a></div>
+>>>>>>> 2a85d0ea5ee87bc703a1a5d75eab7b86550e9b67
+            </div>
         </div>
-        <footer>
-            <div class="wrapper">
-                <div class="wrapper-menu">
-                    <a href="resep1.html">Resep</a>
-                    <a href="komunitas.html">Komunitas</a>
-                    <a href="berita.html">Berita</a>
-                    <a href="tentang.html">Tentang</a>
+        <div style="width: 1440px; height: 188px; position: relative">
+            <div style="width: 1440px; height: 188px; left: 0px; top: 300px; position: relative; background: #F2ECBE"></div>
+            <div style="width: 1290px; height: 60px; left: 75px; top: 364px; position: absolute">
+                <div style="width: 392px; height: 22px; left: 0px; top: 19px; position: absolute; justify-content: flex-start; align-items: flex-start; gap: 50px; display: inline-flex">
+                    <div style="color: #303030; font-size: 16px; font-family: Open Sans; font-weight: 600; word-wrap: break-word">Resep</div>
+                    <div style="color: #303030; font-size: 16px; font-family: Open Sans; font-weight: 600; word-wrap: break-word">Komunitas</div>
+                    <div style="color: #303030; font-size: 16px; font-family: Open Sans; font-weight: 600; word-wrap: break-word">Berita</div>
+                    <div style="color: #303030; font-size: 16px; font-family: Open Sans; font-weight: 600; word-wrap: break-word">Tentang</div>
                 </div>
-          
-                <div class="wrapper-logo">
-                    <img src="assets/img/logo.png" alt="logo" />
-                </div>
-          
-                <div class="wrapper-copyright">
-                    <p>2023 CookYummy. All right reserved</p>
-                </div>
+                <img style="width: 124.14px; height: 60px; left: 583px; top: 0px; position: absolute" src="assets/img/logo.png" />
+                <div style="left: 1045px; top: 22px; position: absolute; color: #303030; font-size: 14px; font-family: Open Sans; font-weight: 600; word-wrap: break-word">2023 CookYummy. All right reserved</div>
             </div>
-        </footer>
+        </div>
     </div>
-    <script>
-        feather.replace();
-    </script>
 </body>
 </html>
