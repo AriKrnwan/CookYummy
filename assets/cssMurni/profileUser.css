@@ -191,12 +191,20 @@ body {
   font-size: 14px;
 }
 
-.action .bg-icon {
+.action .bg-icon-tersimpan {
   width: 20px;
   height: 20px;
   background-color: #7a9d54;
   border-radius: 100px;
 }
+
+.action .bg-icon-like {
+  width: 20px;
+  height: 20px;
+  background-color: #9A3B3B;
+  border-radius: 100px;
+}
+
 
 .action .icon {
   width: 10px;
