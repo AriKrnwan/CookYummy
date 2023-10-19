@@ -10,6 +10,45 @@ body {
 }
 
 /* Profile Pengguna */
+
+.wrapper-search-bar {
+  width: 1150px;
+}
+
+.search-bar {
+  width: 500px;
+  height: 60px;
+  background-color: #fff;
+  border: 1px solid #dedede;
+}
+
+.search-bar input {
+  height: 95%;
+}
+
+.out {
+box-shadow: none !important;
+}
+
+.search-bar input::placeholder {
+  font-size: 14px;
+  color: #8f8f8f;
+}
+
+.search-bar button {
+  width: 24%;
+  height: 95%;
+  background-color: #9A3B3B;
+}
+
+.search-bar button:hover {
+  background-color: #7c2525;
+}
+
+.search-bar button:active {
+background-color: #7c2525 !important;
+}
+
 #profile-pengguna {
   margin-top: 125px;
 }
@@ -336,7 +375,14 @@ body {
 
 #content4 .status-pengiriman {
   height: 90px;
-  padding-left: 25px;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+#content4 .tanggal-pengiriman {
+  width: 120px;
 }
 
 #content4 .status-pengiriman h6 {
@@ -356,6 +402,10 @@ body {
   height: 30px;
   width: 3px;
   background-color: #bdbdbd;
+}
+
+#content4 .status-barang {
+  width: 220px;
 }
 
 #content4 .map {

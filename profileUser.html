@@ -90,30 +90,16 @@
         <button id="btn4" onclick="openD()">Pesanan</button>
       </div>
       <div id="content1" class="content">
-        <div class="container mt-4">
-          <div class="row d-flex justify-content-end">
-            <div class="col-6">
-              <div class="total-resep">
-                <h1>Resep <span>(8)</span></h1>
-              </div>
-            </div>
-            <div class="col-6 d-flex justify-content-end">
-              <div class="cari">
-                <input
-                  type="search"
-                  id="cariResep"
-                  name="cariBerita"
-                  placeholder="Cari Resep"
-                />
-              </div>
-              <button
-                class="cari-icon ms-3 d-flex align-items-center justify-content-center border-0"
-              >
-                <i class="custom-icon" data-feather="search"></i>
-              </button>
-            </div>
+        <div class="wrapper-search-bar d-flex justify-content-between mx-auto mt-4">
+          <div class="total-resep">
+            <h1>Resep <span>(10)</span></h1>
+          </div>
+          <div class="search-bar d-flex flex-row justify-content-around align-items-center rounded-3">
+            <input type="text" class="out form-control out w-75 d-inline border border-0 outline-0" placeholder="Cari resepmu di sini?">
+            <button class="btn btn-primary btn-lg border norder-0" id="button"><i data-feather="search"></i></button>
           </div>
         </div>
+        
 
         <div
           class="cards mx-auto mt-4 d-flex justify-content-start flex-wrap gap-4"
@@ -998,7 +984,7 @@
                 <span>632767876872349234</span>
               </div>
               <hr />
-              <div class="status-pengiriman d-flex align-items-center gap-5">
+              <div class="status-pengiriman d-flex align-items-center">
                 <div class="tanggal-pengiriman">
                   <h6>23 Sep 2023</h6>
                   <h6>09.30 WIB</h6>
@@ -1016,7 +1002,7 @@
                 </div>
               </div>
 
-              <div class="status-pengiriman d-flex align-items-center gap-5">
+              <div class="status-pengiriman d-flex align-items-center">
                 <div class="tanggal-pengiriman">
                   <h6>23 Sep 2023</h6>
                   <h6>09.35 WIB</h6>
@@ -1034,7 +1020,7 @@
                 </div>
               </div>
 
-              <div class="status-pengiriman d-flex align-items-center gap-5">
+              <div class="status-pengiriman d-flex align-items-center">
                 <div class="tanggal-pengiriman">
                   <h6>23 Sep 2023</h6>
                   <h6>09.55 WIB</h6>
@@ -1052,7 +1038,7 @@
                 </div>
               </div>
 
-              <div class="status-pengiriman d-flex align-items-center gap-5">
+              <div class="status-pengiriman d-flex align-items-center pb-4">
                 <div class="tanggal-pengiriman">
                   <h6>23 Sep 2023</h6>
                   <h6>10.00 WIB</h6>
